@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('BarebudGet'),
+            const Text('BareBudget'),
             Text(
               DateFormat('EEEE, MMMM d').format(DateTime.now()),
               style: Theme.of(
